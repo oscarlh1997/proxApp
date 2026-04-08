@@ -1,4 +1,28 @@
 {
-  "name": "ProxSocialRNApp",
-  "displayName": "ProxSocial"
+  "expo": {
+    "name": "ProxSocial",
+    "slug": "proxsocial",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "backgroundColor": "#3B82F6",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.proxsocial.app"
+    },
+    "android": {
+      "package": "com.proxsocial.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#3B82F6"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
 }
