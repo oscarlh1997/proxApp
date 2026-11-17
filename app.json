@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "ProxSocial",
+    "slug": "proxsocial",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#EEF0F7",
+    "splash": { "image": "./assets/icon.png", "resizeMode": "contain", "backgroundColor": "#1B1D3A" },
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.proxsocial.app" },
+    "android": {
+      "package": "com.proxsocial.app",
+      "adaptiveIcon": { "foregroundImage": "./assets/icon.png", "backgroundColor": "#1B1D3A" }
+    },
+    "web": { "bundler": "metro", "favicon": "./assets/icon.png" },
+    "plugins": [
+      ["expo-location", { "locationWhenInUsePermission": "ProxSocial usa tu ubicación para mostrarte a las personas que tienes cerca." }]
+    ]
+  }
+}
